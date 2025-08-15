@@ -10,7 +10,7 @@
   
   <!-- Audio player -->
   <audio id="myAudio" controls>
-    <source src="<!-- ✨ මෙතනින් පළමු song URL එක paste කරන්න -->" type="audio/mpeg">
+    <source src="https://www.sangeethe.com/song/nidahase-inna" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
@@ -21,9 +21,9 @@
 
     // Playlist: paste URLs here
     const playlist = [
-      "https://example.com/song1.mp3", // පළමු song
-      "https://example.com/song2.mp3", // දෙවැනි song
-      "https://example.com/song3.mp3"  // තෙවැනි song (ඕනේ නම්)
+      "https://www.sangeethe.com/song/nidahase-inna", // පළමු song
+      "https://archive.org/download/eminemmockingbird_201911/eminemmockingbird.mp3", // දෙවැනි song
+      "https://archive.org/download/eminemmockingbird_201911/eminemmockingbird.mp3"  // තෙවැනි song (ඕනේ නම්)
     ];
 
     let current = 0;
@@ -39,7 +39,7 @@
     });
 
     // page load උනාම first song play කරන්න
-    window.addEventListener("load", () => {
+    window.addEventListener("load", () => {https://www.sangeethe.com/song/nidahase-inna
       audio.src = playlist[current];
       audio.play();
     });
